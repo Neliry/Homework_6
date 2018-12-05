@@ -75,7 +75,7 @@ class MainActivity : AppCompatActivity() {
             no_internet_connection.visibility = View.GONE
             rv_days_list.layoutManager = LinearLayoutManager(this)
             rv_days_list.addItemDecoration(ListItemDecoration(this))
-            OkHttpHandler().execute("http://api.openweathermap.org/data/2.5/forecast?q=Cherkasy&mode=json&cnt=7&APPID=35ddaaf4d566ac6a42ca442b58fb66b2")
+            OkHttpHandler().execute("http://api.openweathermap.org/data/2.5/forecast?q=Cherkasy&mode=json&APPID=35ddaaf4d566ac6a42ca442b58fb66b2")
         } else {
             loading_indicator.visibility = View.GONE
             no_internet_connection.visibility = View.VISIBLE

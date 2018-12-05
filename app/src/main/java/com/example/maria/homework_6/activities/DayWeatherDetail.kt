@@ -40,8 +40,8 @@ class DayWeatherDetail : AppCompatActivity() {
 
         description_view.text = "Description: " + description
 
-        pressure_view.text = "Pressure: " + pressure.toString()
-        humidity_view.text = "Humidity: " + humidity.toString()
+        pressure_view.text = "Pressure: " + pressure.toString()+" hPa"
+        humidity_view.text = "Humidity: " + humidity.toString()+"%"
         wind_speed_view.text = "Wind speed: " + windSpeed.toString()
 
         weather_icon_view.setImageResource(res)
