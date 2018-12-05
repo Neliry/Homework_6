@@ -11,7 +11,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import com.example.maria.homework_6.DailyWeatherList
 import com.example.maria.homework_6.R
-import com.example.maria.homework_6.activitys.DayWeatherDetail
+import com.example.maria.homework_6.activities.DayWeatherDetail
 import java.util.*
 
 

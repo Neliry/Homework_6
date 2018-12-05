@@ -1,4 +1,4 @@
-package com.example.maria.homework_6.activitys
+package com.example.maria.homework_6.activities
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity

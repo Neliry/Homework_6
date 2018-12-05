@@ -1,4 +1,4 @@
-package com.example.maria.homework_6.activitys
+package com.example.maria.homework_6.activities
 
 import android.content.Context
 import android.content.Intent
