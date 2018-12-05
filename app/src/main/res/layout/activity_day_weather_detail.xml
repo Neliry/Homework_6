@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_medium"
+    tools:context=".activitys.DayWeatherDetail">
+
+    <TextView
+        android:id="@+id/date_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/primary_text"
+        android:textSize="@dimen/medium_text" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/weather_icon_view"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="0"
+            android:adjustViewBounds="true" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/temperature_view"
+                style="@style/TextViewDetail" />
+
+            <TextView
+                android:id="@+id/description_view"
+                style="@style/TextViewDetail" />
+
+            <TextView
+                android:id="@+id/pressure_view"
+                style="@style/TextViewDetail" />
+
+            <TextView
+                android:id="@+id/humidity_view"
+                style="@style/TextViewDetail" />
+
+            <TextView
+                android:id="@+id/wind_speed_view"
+                style="@style/TextViewDetail" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+
+</LinearLayout>
