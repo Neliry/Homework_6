@@ -1,4 +1,4 @@
-# Homework_6
+# WeatherApp
 
 https://1drv.ms/u/s!AjPy-xC0DI2U3G1e5A2Cg5-sS0IS
 
